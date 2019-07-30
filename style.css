@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 300%;
+    font-family: UD Digi Kyokasho NP-R; UD Digi Kyokasho; 
+    color: violet;
+    float: left; 
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.biglogo a:link {
+    text-decoration: none;
+    color: violet; 
+}
+
+.biglogo a:visited {
+    color: violet; 
+}
+
+h2{
+    font-size: 130%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    float: right;
+    margin-right: 1%;    
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 2%;
+    padding: 0; 
+} 
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+}
+
+.navigation a:hover {
+    color: violet;
+    display: inline-block;
+    transition: color 0.5s
+}
+
+.navigation {
+    align-self: flex-end; 
+}
+
+.iglogo {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.utubelogo {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+@media screen and (max-width: 500px) {
+    .biglogo {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .navigation {
+      float: none;
+    }
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1%; 
+    margin-bottom: 2%; 
+}
+
+h3 {
+    color: black; 
+    font-size: 300%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.img1 { 
+    float: left;
+    max-width: 40%;
+    max-height: 40%;
+    padding: 5%;
+}
+
+.img2 {
+    float: right;
+    max-width: 40%;
+    max-height: 40%;
+    padding: 5%;
+}
+
+.img3 {
+    float: left;
+    max-width: 40%;
+    max-height: 40%;
+    padding: 5%;
+}
+
+.img4 {
+    float: right; 
+    max-width: 40%;
+    max-height: 40%;
+    padding: 5%;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 110%;
+}
+
+/* ABOUT SECTION */
+span {
+    position: absolute;
+    top: 15%;
+    right: 20%;
+}
+
+.abouttext { 
+    top:5%;
+}
+
+
+/* FOOTER */
+footer {
+    position: relative;
+    bottom: 0px;
+    max-width: 100%;
+    background-color: violet;
+    padding: 10%;
+    height: 1%;
+    margin-top: 10%;
+    clear: both; 
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 10%;
+}
