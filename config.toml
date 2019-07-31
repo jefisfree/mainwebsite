@@ -3,4 +3,6 @@ languageCode = "en-us"
 title = "Jefisfree"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 paginate = 20
+disableAliases (false)
+autoHeaderIDs (enabled)
 
