@@ -1,4 +1,6 @@
-<head>
+<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -6,22 +8,43 @@
     <h1 class="biglogo">
         <a href="index.html">Jefisfree</a>
     </h1>
-    <h2>
-        <nav class="navigation" role="navigation">
+    <nav class="navigation" role="navigation" id="navbar">
+        <nav id="navtab">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="gallery.html" class="gnav">Gallery</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="gabout">About</a></li> 
+            </ul>
+        </nav>
+        <nav id="navicon">
+            <ul>
                 <li><a href="https://www.instagram.com/jefisfree/" target="_blank"><img class="iglogo" src="instagram.png"></a></li>
                 <li><a href="https://www.youtube.com/" target="_blank"><img class="utubelogo" src="youtube.png"></a></li>
-                <li><a href="https://www.facebook.com/jefisfreee/" target="_blank"><img class="iglogo" src="facebook.jpg"></a></li>
+                <li><a href="https://www.facebook.com/jefisfreee/" target="_blank"><img class="iglogo" src="facebook.jpg"></a></li>   
             </ul>
-        </nav>    
-    </h2>
+        </nav>
+    </nav> 
 </header>
 
-<body> /*full screen images, enable enough spacing etc.*/ 
-    <img src="imga.jpg">
-    <img src="imgb.jpg"> 
-</body>
+<div>
+    <div class="gallerybanner">  
+    <a href="gallerycyberpunk.html"><img class="gbanner1" src="galleryhome/cyberpunkbanner.JPG"></a>
+    <a href="gallerystreet.html"><img class="gbanner2" src="galleryhome/streetbanner.JPG"></a>
+    <a href="gallerylandscape.html"><img class="gbanner3" src="galleryhome/landscapebanner.jpg"></a>
+    </div>
+    <div id="container">
+        <div id="main">
+
+        </div>
+    </div>
+</div>
+
+<footer>
+    <nav class="navigation" role="navigation" id="footer">
+        <ul>
+            <li><a href="https://www.instagram.com/jefisfree/" target="_blank"><img class="iglogo" src="instagram.png"></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank"><img class="utubelogo" src="youtube.png"></a></li>
+            <li><a href="https://www.facebook.com/jefisfreee/" target="_blank"><img class="iglogo" src="facebook.jpg"></a></li>   
+        </ul>
+    </nav>      
+</footer>

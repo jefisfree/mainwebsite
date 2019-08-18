@@ -1,4 +1,5 @@
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -6,34 +7,45 @@
     <h1 class="biglogo">
         <a href="index.html">Jefisfree</a>
     </h1>
-    <h2>
-        <nav class="navigation" role="navigation">
+    <nav class="navigation" role="navigation" id="navbar">
+        <nav id="navtab">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="gallery.html" class="gnav">Gallery</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="gabout">About</a></li> 
+            </ul>
+        </nav>
+        <nav id="navicon">
+            <ul>
                 <li><a href="https://www.instagram.com/jefisfree/" target="_blank"><img class="iglogo" src="instagram.png"></a></li>
                 <li><a href="https://www.youtube.com/" target="_blank"><img class="utubelogo" src="youtube.png"></a></li>
-                <li><a href="https://www.facebook.com/jefisfreee/" target="_blank"><img class="iglogo" src="facebook.jpg"></a></li>
+                <li><a href="https://www.facebook.com/jefisfreee/" target="_blank"><img class="iglogo" src="facebook.jpg"></a></li>   
             </ul>
-        </nav>    
-    </h2>
+        </nav>
+    </nav> 
 </header>
 
-<div id="container">
-    <div id="main">
-        <span>
-            <img class="img3" src="img3.JPG">
-                <p class="abouttext">
-                    Jefisfree (Jeff Chiang) is from Sydney. He is a photographer who delves in street
-                    and urban photography in his spare time. His works convey moody moments that play into 
-                    a feeling of melancholy. When he has more time, he travels the world aiming to explore
-                    every corner of the world. He also eats too much food and always on a food adventure. 
-                </p>
-        </span>
+<body>
+    <span>
+        <div class="profilepiccontainer">
+            <img class="profilepic" src="aboutprofile.JPG">
+        </div>
+        <div class="abouttextcontainer">
+        <p class="abouttext">
+        Jefisfree (Jeff Chiang) is a photographer from Sydney, Australia. He delves in street
+        and urban photography in his spare time. His works convey moody moments that play into 
+        a feeling of melancholy. When he has more time, he travels the world aiming to explore
+        every corner of the world on a budget, taking his camera along on the journey, and a never ending appetite for great food.
+        If you have any questions or suggestions, shoot an email to <a class="maillink" href="mailto:itsjefisfree@gmail.com">itsjefisfree@gmail.com</a> or find me on my socials.
+        </p> 
+        </div>
+    </span>
+    <div id="container">
+        <div id="main">
+            
+        </div>
     </div>
-</div>
+</body>
 
 
 <footer>

@@ -63,10 +63,10 @@ h2{
 .vertical-menu {
     width: 25%; /* Set a width if you like */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
-    float: right;  
+    float: left;  
 }
   
-  .vertical-menu a {
+.vertical-menu a {
     color: black; /* Black text color */
     display: block; /* Make the links appear below each other */
     padding: 12px; /* Add some padding */
@@ -80,3 +80,17 @@ h2{
   .vertical-menu a.active {
     color: violet;
   }
+  
+/* FOOTER */
+footer {
+  position: relative;
+  bottom: 0px;
+  max-width: 100%;
+  background-color: violet;
+  padding: 10%;
+  height: 1%;
+  margin-top: 10%;
+  clear: both; 
+  display: flex;
+  justify-content: center;
+}

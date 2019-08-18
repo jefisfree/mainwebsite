@@ -1,33 +1,46 @@
 <head>
     <link href="style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="lightbox/lightbox.css" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
 </head>
 
+<body>
 <header>
     <h1 class="biglogo">
         <a href="index.html">Jefisfree</a>
     </h1>
-    <h2>
-        <nav class="navigation" role="navigation">
+    <nav class="navigation" role="navigation" id="navbar">
+        <nav id="navtab">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="gallery.html" class="gnav">Gallery</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" class="gabout">About</a></li> 
+            </ul>
+        </nav>
+        <nav id="navicon">
+            <ul>
                 <li><a href="https://www.instagram.com/jefisfree/" target="_blank"><img class="iglogo" src="instagram.png"></a></li>
                 <li><a href="https://www.youtube.com/" target="_blank"><img class="utubelogo" src="youtube.png"></a></li>
                 <li><a href="https://www.facebook.com/jefisfreee/" target="_blank"><img class="iglogo" src="facebook.jpg"></a></li>   
             </ul>
-        </nav>    
-    </h2>
+        </nav>
+    </nav> 
 </header>
+
 <h3> 
-    <img class="banner" src="banner.png" alt=cybercity> 
-    <text>Latest Blog</text>
+    <img class="banner" src="banner.png" alt=cybercity>
+    <img class="bannermobile" src="bannermobile.png" alt="cybercity"> 
+    <p class="homesubtitle">Latest Blog</p>
+    <a href="blog1.html"><img class="blogbanners" src="blog/blog1/b1.JPG"></a>
+    <p class="btitles">
+        <a href="blog1.html">Overnight Layover "All night" in Seoul</a>
+    </p>
     <div>
-        <img class="img1" src="img1.JPG"> 
-        <img class="img2" src="img2.JPG">
-        <img class="img3" src="img3.JPG">  
-        <img class="img4" src="img4.JPG"> 
+        <a href="img1.JPG" data-lightbox="1"><img class="himg1" src="img1thumb.JPG"></a> 
+        <a href="img2.JPG" data-lightbox="1"><img class="himg2" src="img2thumb.JPG"></a>
+        <a href="img3.JPG" data-lightbox="1"><img class="himg3" src="img3thumb.JPG"></a>  
     </div>
     <div id="container">
         <div id="main">
@@ -35,6 +48,14 @@
         </div>
     </div>
 </h3>
+<script src="lightbox/lightbox.js"></script>
+</body>
+<script>
+    lightbox.option({
+      'wrapAround': true,  
+      'showImageNumberLabel': false
+    })
+</script>
 
 <footer>
     <nav class="navigation" role="navigation" id="footer">
