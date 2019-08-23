@@ -26,5 +26,5 @@ by [Lokesh Dhakar](http://www.lokeshdhakar.com)
 - Install jQuery dependency with Bower: `bower install`
 - Start local server: `grunt`
 - Navigate to `localhost:8000/examples`
-- Update `examples/index.html` to load `src/js/lightbox.js` and jQuery.
+- Update `examples/` to load `src/js/lightbox.js` and jQuery.
 
