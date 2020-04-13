@@ -1,54 +1,86 @@
-<head>
+<!DOCTYPE html>
+<head lang="en">
     <link href="style.css" rel="stylesheet" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="lightbox/lightbox.css" rel="stylesheet"> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script data-ad-client="ca-pub-8330387974279400" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script type="text/javascript" src="js/lightbox.js"></script>
     <link rel="icon" href="favicon.png">
 </head>
 
-<body>
 <header>
     <h1 class="biglogo">
         <a href="home.html">Jefisfree</a>
     </h1>
-    <nav class="navigation" role="navigation" id="navbar">
+    <nav class="navigation" id="navbar">
         <nav id="navtab">
             <ul>
-                <li><a href="gallery.html" class="gnav">Gallery</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="about.html" class="gabout">About</a></li> 
+                <li><a href="about.html">About</a></li> 
             </ul>
         </nav>
         <nav id="navicon">
             <ul>
-                <li><a href="https://www.instagram.com/jefisfree/" target="_blank"><img class="iglogo" src="instagram.png"></a></li>
-                <li><a href="https://www.youtube.com/TheemperorJC/" target="_blank"><img class="utubelogo" src="youtube.png"></a></li>
-                <li><a href="https://www.facebook.com/itsjefisfree/" target="_blank"><img class="iglogo" src="facebook.jpg"></a></li>   
+                <li><a href="https://www.instagram.com/jefisfree/" target="_blank"><img class="iglogo" src="instagram.png" alt="instagram"></a></li>
+                <li><a href="https://www.youtube.com/TheemperorJC/" target="_blank"><img class="utubelogo" src="youtube.png" alt="youtube"></a></li>
+                <li><a href="https://www.facebook.com/itsjefisfree/" target="_blank"><img class="iglogo" src="facebook.jpg" alt="facebook"></a></li>   
             </ul>
         </nav>
     </nav> 
 </header>
 
-<h3> 
+<body> 
     <img class="banner" src="banner.jpg" alt=cybercity>
     <img class="bannermobile" src="bannermobile.jpg" alt="cybercity"> 
+    <img class="bannerlarge" src="bannerlarge.jpg" alt="cybercity">
     <p class="homesubtitle">Latest Blog</p>
     <a href="blog3.html"><img class="blogbanners" src="blog/blog3/b3.JPG"></a>
     <p class="btitles">
         <a href="blog3.html">Opal Hacks on Sydney Transport</a>
     </p>
-    <div>
-        <a href="img1.JPG" data-lightbox="1"><img class="himg1" src="img1thumb.JPG"></a> 
-        <a href="img2.JPG" data-lightbox="1"><img class="himg2" src="img2thumb.JPG"></a>
-        <a href="img3.JPG" data-lightbox="1"><img class="himg3" src="img3thumb.JPG"></a>  
-    </div>
+    <p class="homequote">
+        Part-time photographer <br> Full-time traveller
+    </p>
+    <br>
+    <form class="form" action="/mailinglist/subscribe.html" name="subscribe" method="POST" data-netlify="true">
+        <div class="formcontent">
+            <br>
+            <p class="formhead">Sign Up to the Mailing List</p>
+            <br>
+            <p class="formsubtext">
+                Get regular updates and bonus information on new content, join the mailing list to find out more
+            </p>
+            <br><br>
+            <div class="inputcontainer">
+                <p>
+                    <label>
+                    <span>Name</span>&nbsp;&nbsp;<input type="text" maxlength="30" name="query" required>
+                    </label>
+                </p>
+                <br>
+                <p>
+                    <label>
+                    <span>Email</span>&nbsp;&nbsp;<input type="email" name="email" required>
+                    </label>
+                </p>
+                <p>
+                    <button class="button" type="submit">Submit</button> 
+                </p>
+            </div>
+        </div>
+        <image class="formimage" src="subscribe/formback.JPG"></image>
+        <image class="formimagemobile" src="subscribe/formbackmobile.JPG"></image>
+        <image class="formimagelarge" src="subscribe/formbacklarge.JPG"></image>        
+    </form>
     <div id="container">
         <div id="main">
 
         </div>
     </div>
-</h3>
+</body>
+
 <script src="lightbox/lightbox.js"></script>
 </body>
 <script>
@@ -59,11 +91,11 @@
 </script>
 
 <footer>
-    <nav class="navigation" role="navigation" id="footer">
+    <nav class="navigation" id="footer">
         <ul>
-            <li><a href="https://www.instagram.com/jefisfree/" target="_blank"><img class="iglogo" src="instagram.png"></a></li>
-            <li><a href="https://www.youtube.com/TheemperorJC/" target="_blank"><img class="utubelogo" src="youtube.png"></a></li>
-            <li><a href="https://www.facebook.com/itsjefisfree/" target="_blank"><img class="iglogo" src="facebook.jpg"></a></li>   
+            <li><a href="https://www.instagram.com/jefisfree/" target="_blank"><img class="iglogo" src="instagram.png" alt="instagram"></a></li>
+            <li><a href="https://www.youtube.com/TheemperorJC/" target="_blank"><img class="utubelogo" src="youtube.png" alt="youtube"></a></li>
+            <li><a href="https://www.facebook.com/itsjefisfree/" target="_blank"><img class="iglogo" src="facebook.jpg" alt="facebook"></a></li>   
         </ul>
     </nav>      
 </footer>
