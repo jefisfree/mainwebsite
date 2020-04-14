@@ -44,7 +44,7 @@
         Part-time photographer <br> Full-time traveller
     </p>
     <br>
-    <form class="form" action="/mailinglist/subscribe.html" name="subscribe" method="POST" data-netlify="true">
+    <form class="form" action="/mailinglist/subscribe.html" name="subscribe" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
         <div class="formcontent">
             <br>
             <p class="formhead">Sign Up to the Mailing List</p>
@@ -65,14 +65,18 @@
                     <span>Email</span>&nbsp;&nbsp;<input type="email" name="email" required>
                     </label>
                 </p>
+                <div data-netlify-recaptcha="true"></div>
                 <p>
                     <button class="button" type="submit">Submit</button> 
+                </p>
+                <p class="botform">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
             </div>
         </div>
         <image class="formimage" src="subscribe/formback.JPG"></image>
         <image class="formimagemobile" src="subscribe/formbackmobile.JPG"></image>
-        <image class="formimagelarge" src="subscribe/formbacklarge.JPG"></image>        
+        <image class="formimagelarge" src="subscribe/formbacklarge.JPG"></image>    
     </form>
     <div id="container">
         <div id="main">

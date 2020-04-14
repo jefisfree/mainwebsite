@@ -4,7 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="favicon.png">
+
     <script data-ad-client="ca-pub-8330387974279400" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    
 </head>
 
 <header>
@@ -81,7 +83,7 @@
         <p>&nbsp;</p>
         <p>Thanks for reading this far (or if you’ve scrolled down), I did not expect to write this much for my first blog. If you have any comments, if you liked it, hated it, please let me know at <a class="maillink" href="mailto:itsjefisfree@gmail.com">itsjefisfree@gmail.com</a> or through my socials. </p>   
     </div>
-    <form class="form" action="/mailinglist/subscribe.html" name="subscribe" method="POST" data-netlify="true">
+    <form class="form" action="/mailinglist/subscribe.html" name="subscribe" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
         <div class="formcontent">
             <br>
             <p class="formhead">Sign Up to the Mailing List</p>
@@ -102,24 +104,28 @@
                     <span>Email</span>&nbsp;&nbsp;<input type="email" name="email" required>
                     </label>
                 </p>
+                <div data-netlify-recaptcha="true"></div>
                 <p>
                     <button class="button" type="submit">Submit</button> 
+                </p>
+                <p class="botform">
+                    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
                 </p>
             </div>
         </div>
         <image class="formimage" src="subscribe/formback.JPG"></image>
         <image class="formimagemobile" src="subscribe/formbackmobile.JPG"></image>
-        <image class="formimagelarge" src="subscribe/formbacklarge.JPG"></image>        
+        <image class="formimagelarge" src="subscribe/formbacklarge.JPG"></image>    
     </form>
     <div id="container">
         <div id="main">
     
         </div>
     </div>
-    <a class="top-link hide" href="" id="js-top">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg>
-        <span class="screen-reader-text">Back to top</span>
+    <a class="top-link" href="" id="js-top">
+        <img class="scrollbutton" src="scrollbutton.png">
       </a>
+    <script src="jstopbutton.js"></script>
 </body>
 
 <footer id="footer">
