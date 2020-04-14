@@ -4,7 +4,7 @@ RewriteEngine on
 
 RewriteBase /Jefisfree website/
 
-RewriteRule ^((?!index\.php)[^/]+)/?$ index.php?page=$1 [L]
+RewriteRule ^((?!index\.php)[^/]+)/?$ index.php?page=$1 [L,R]
 RewriteRule ^((?!index\.php)[^/]+)/([A-Za-z0-9]+)/([0-9]+)/([0-9]+)/?$ index.php?page=$1&keyword=$2&zip=$3&range=$4 [L,R]
 
 RewriteOptions InheritDown
