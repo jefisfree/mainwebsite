@@ -544,8 +544,6 @@ input {
 
 .inputcontainer {
     text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 .formimage {
@@ -558,7 +556,8 @@ input {
 }
 
 .recaptcha {
-    max-width: 50%;
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .botform {
