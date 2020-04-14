@@ -539,7 +539,6 @@ input {
     border-color: violet;
     border-style: none;
     padding: 3vw;
-    margin-top: 5%;
 }
 
 .inputcontainer {
@@ -558,6 +557,7 @@ input {
 .recaptcha {
     display: inline-block;
     margin: 0 auto;
+    margin-top: 1vh;
 }
 
 .botform {
@@ -594,6 +594,10 @@ input {
     .formhead {
         padding-top: 0%;
         padding-bottom: 0.1%;
+    }
+
+    .button {
+        margin-top: 1vh;
     }
 } 
 
