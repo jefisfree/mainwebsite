@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <head lang="en">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../style.css" rel="stylesheet" type="text/css">
+    <link href="../lightbox/lightbox.css" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="icon" href="../favicon.png">
 </head>
 
@@ -28,29 +29,33 @@
         </nav>
     </nav> 
 </header>
-  
-<body class="subback">
-    <div class="subcontainer">
-        <p class="subtext">
-            <span>
-                <span>Sad to see you go</span> <br><br>
-                Have fun in the rest of cyberspace
-            </span>
-        </p>
-        <img class="subimg" src="../mailinglist/subimg.JPG">
-        <img class="submobile" src="../mailinglist/submobile.JPG">
-        <img class="sublarge" src="../mailinglist/sublarge.JPG">
+
+<body>
+    <div>
+        <a href="../gallery/landscape/img1.JPG" data-lightbox="3"><img class="img1" src="../gallery/landscape/img1thumb.JPG"></a> 
+        <a href="../gallery/landscape/img2.JPG" data-lightbox="3"><img class="img2" src="../gallery/landscape/img2thumb.JPG"></a>
+        <a href="../gallery/landscape/img3.JPG" data-lightbox="3"><img class="img1" src="../gallery/landscape/img3thumb.JPG"></a>  
+        <a href="../gallery/landscape/img4.JPG" data-lightbox="3"><img class="img2" src="../gallery/landscape/img4thumb.JPG"></a>
+        <a href="../gallery/landscape/img5.JPG" data-lightbox="3"><img class="img1" src="../gallery/landscape/img5thumb.JPG"></a>
+        <a href="../gallery/landscape/img6.JPG" data-lightbox="3"><img class="img2" src="../gallery/landscape/img6thumb.JPG"></a>  
+        <a href="../gallery/landscape/img7.JPG" data-lightbox="3"><img class="img1" src="../gallery/landscape/img7thumb.JPG"></a>       
     </div>
     <div id="container">
         <div id="main">
 
         </div>
     </div>
+    <script src="../lightbox/lightbox.js"></script>
 </body>
+<script>
+    lightbox.option({
+        'wrapAround': true,  
+        'showImageNumberLabel': false
+    })
+</script>
 
-<footer id="footer">
-    
-    <nav class="navigation">
+<footer>
+    <nav class="navigation" id="footer">
         <ul>
             <li><a href="https://www.instagram.com/jefisfree/" target="_blank"><img class="iglogo" src="../instagram.png" alt="instagram"></a></li>
             <li><a href="https://www.youtube.com/TheemperorJC/" target="_blank"><img class="utubelogo" src="../youtube.png" alt="youtube"></a></li>

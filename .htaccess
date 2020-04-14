@@ -4,8 +4,13 @@ RewriteEngine on
 
 RewriteBase /Jefisfree website/
 
-RewriteRule ^((?!index\.php)[^/]+)/?$ index.php?page=$1 [L,R]
-RewriteRule ^((?!index\.php)[^/]+)/([A-Za-z0-9]+)/([0-9]+)/([0-9]+)/?$ index.php?page=$1&keyword=$2&zip=$3&range=$4 [L,R]
+# Check for file in directory with .html extension
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+
+# Here we actually show the page that has the .html extension
+
+RewriteRule ^(.*)$ $1.html [NC,L]
 
 RewriteOptions InheritDown
 

@@ -8,6 +8,11 @@ header {
     overflow: hidden;
 }
 
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 110%;
+}
+
 .biglogo {
     font-size: 300%;
     font-family: UD Digi Kyokasho NP-R; UD Digi Kyokasho; 
@@ -178,11 +183,6 @@ header {
     align-content: center;
 }
 
-p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 110%;
-}
-
 @media screen and (max-width: 805px) {
     .banner {
         display: none;
@@ -311,13 +311,23 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 60%;
+    max-width: 100%;
     max-height: auto;
+}
+
+.blogscontainer {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 805px) {
     .blogbanners {
         max-width: 95%;
+    }
+
+    .blogscontainer {
+        max-width: 100%;
     }
 }
 
@@ -597,7 +607,11 @@ input {
     }
 
     .button {
-        margin-top: 1vh;
+        margin-top: -2vh;
+    }
+
+    .inputcontainer {
+        margin-top: -3vh;
     }
 } 
 
@@ -800,6 +814,13 @@ input {
     width: 40px;
     height: 40px;
     background-color: violet;
+}
+
+
+.top-link.show {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.8s;
 }
 
 .top-link.hide {

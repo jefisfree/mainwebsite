@@ -6,4 +6,4 @@ cd C:\Users\jeffr\Documents\Jefisfree website
 Stage changes then Commit
 [In cmd]
 git push
-git commit
+
